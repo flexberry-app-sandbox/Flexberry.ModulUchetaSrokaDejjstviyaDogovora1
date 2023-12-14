@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент-e",
+  "editForm": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент-e",
+  "external": false,
+  "caption": "Клиент",
+  "name": "IIS_Modul_ucheta_sroka_dejjstviya_dogovoraКлиентL",
+  "className": "КлиентL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент",
+      "modelProjection": "КлиентL"
+    }
+  ]
+}

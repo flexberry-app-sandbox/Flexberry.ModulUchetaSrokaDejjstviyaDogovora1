@@ -1,0 +1,8 @@
+﻿{
+  "nameSpace": "IIS._Modul_ucheta_sroka_dejjstviya_dogovora",
+  "className": "Статус",
+  "enumObjects": {
+    "Заключен": "Заключен",
+    "Расторжен": "Расторжен"
+  }
+}

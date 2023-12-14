@@ -1,0 +1,50 @@
+﻿{
+  "applicationCaption": "_ modul_ucheta_sroka_dejjstviya_dogovora",
+  "applicationTitle": "_ modul_ucheta_sroka_dejjstviya_dogovora",
+  "items": [
+    {
+      "link": null,
+      "menuName": "modul-ucheta-sroka-dejjstviya-dogovora",
+      "caption": "_Modul_ucheta_sroka_dejjstviya_dogovora",
+      "title": "_Modul_ucheta_sroka_dejjstviya_dogovora",
+      "children": [
+        {
+          "link": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-l",
+          "menuName": null,
+          "caption": "Услуги",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент-l",
+          "menuName": null,
+          "caption": "Клиент",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл-l",
+          "menuName": null,
+          "caption": "Дир отд по раб с кл",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем-l",
+          "menuName": null,
+          "caption": "Расчет ост врем",
+          "title": "",
+          "children": null
+        },
+        {
+          "link": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор-l",
+          "menuName": null,
+          "caption": "Договор",
+          "title": "",
+          "children": null
+        }
+      ]
+    }
+  ],
+  "mobile": true
+}

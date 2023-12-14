@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-e",
+  "editForm": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-e",
+  "external": false,
+  "caption": "Услуги",
+  "name": "IIS_Modul_ucheta_sroka_dejjstviya_dogovoraУслугиL",
+  "className": "УслугиL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги",
+      "modelProjection": "УслугиL"
+    }
+  ]
+}

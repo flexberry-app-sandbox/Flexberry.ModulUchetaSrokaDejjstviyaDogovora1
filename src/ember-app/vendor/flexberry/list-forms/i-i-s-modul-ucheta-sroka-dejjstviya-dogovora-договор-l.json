@@ -1,0 +1,15 @@
+﻿{
+  "newForm": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор-e",
+  "editForm": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор-e",
+  "external": false,
+  "caption": "Договор",
+  "name": "IIS_Modul_ucheta_sroka_dejjstviya_dogovoraДоговорL",
+  "className": "ДоговорL",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор",
+      "modelProjection": "ДоговорL"
+    }
+  ]
+}

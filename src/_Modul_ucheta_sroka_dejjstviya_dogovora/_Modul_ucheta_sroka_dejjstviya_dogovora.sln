@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30611.23
+MinimumVisualStudioVersion = 15.0.26124.0
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Modul_ucheta_sroka_dejjstviya_dogovora.Objects", "Objects/_Modul_ucheta_sroka_dejjstviya_dogovora.Objects.csproj", "e991d376-95de-499c-9ed4-66591ac90136"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Modul_ucheta_sroka_dejjstviya_dogovora.Tests", "Tests/_Modul_ucheta_sroka_dejjstviya_dogovora.Tests.csproj", "0fce5498-4d14-468c-919b-94e4b14c2b23"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Modul_ucheta_sroka_dejjstviya_dogovora.ODataBackend", "ODataBackend/_Modul_ucheta_sroka_dejjstviya_dogovora.ODataBackend.csproj", "d9979742-fc17-49a6-ba65-58cddc0a6288"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_Modul_ucheta_sroka_dejjstviya_dogovora.IntegrationTests", "IntegrationTests/_Modul_ucheta_sroka_dejjstviya_dogovora.IntegrationTests.csproj", "ce5398be-ba2b-4822-971f-ec6eb39f8c5d"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+Debug|Any CPU = Debug|Any CPU
+Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		e991d376-95de-499c-9ed4-66591ac90136.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		e991d376-95de-499c-9ed4-66591ac90136.Debug|Any CPU.Build.0 = Debug|Any CPU
+		e991d376-95de-499c-9ed4-66591ac90136.Release|Any CPU.ActiveCfg = Release|Any CPU
+		e991d376-95de-499c-9ed4-66591ac90136.Release|Any CPU.Build.0 = Release|Any CPU
+		0fce5498-4d14-468c-919b-94e4b14c2b23.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		0fce5498-4d14-468c-919b-94e4b14c2b23.Debug|Any CPU.Build.0 = Debug|Any CPU
+		0fce5498-4d14-468c-919b-94e4b14c2b23.Release|Any CPU.ActiveCfg = Release|Any CPU
+		0fce5498-4d14-468c-919b-94e4b14c2b23.Release|Any CPU.Build.0 = Release|Any CPU
+		d9979742-fc17-49a6-ba65-58cddc0a6288.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		d9979742-fc17-49a6-ba65-58cddc0a6288.Debug|Any CPU.Build.0 = Debug|Any CPU
+		d9979742-fc17-49a6-ba65-58cddc0a6288.Release|Any CPU.ActiveCfg = Release|Any CPU
+		d9979742-fc17-49a6-ba65-58cddc0a6288.Release|Any CPU.Build.0 = Release|Any CPU
+		ce5398be-ba2b-4822-971f-ec6eb39f8c5d.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		ce5398be-ba2b-4822-971f-ec6eb39f8c5d.Debug|Any CPU.Build.0 = Debug|Any CPU
+		ce5398be-ba2b-4822-971f-ec6eb39f8c5d.Release|Any CPU.ActiveCfg = Release|Any CPU
+		ce5398be-ba2b-4822-971f-ec6eb39f8c5d.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

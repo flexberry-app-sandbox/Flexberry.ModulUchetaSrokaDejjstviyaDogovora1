@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1"
+	xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistencehttp://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+    <persistence-unit name="Olingo4PG">
+        <class>_Modul_ucheta_sroka_dejjstviya_dogovora.model.OkazUslug</class>
+        <class>_Modul_ucheta_sroka_dejjstviya_dogovora.model.Uslugi</class>
+        <class>_Modul_ucheta_sroka_dejjstviya_dogovora.model.Klient</class>
+        <class>_Modul_ucheta_sroka_dejjstviya_dogovora.model.DirOtdPoRabSKl</class>
+        <class>_Modul_ucheta_sroka_dejjstviya_dogovora.model.RaschetOstVrem</class>
+        <class>_Modul_ucheta_sroka_dejjstviya_dogovora.model.Dogovor</class>
+        <class>_Modul_ucheta_sroka_dejjstviya_dogovora.model.FlexberryAdvLimit</class>
+        <class>_Modul_ucheta_sroka_dejjstviya_dogovora.model.NewPlatformFlexberryFlexberryUserSetting</class>
+        <class>_Modul_ucheta_sroka_dejjstviya_dogovora.model.NewPlatformFlexberryServicesLock</class>
+        <class>_Modul_ucheta_sroka_dejjstviya_dogovora.model.IISCaseberryLoggingObjectsApplicationLog</class>
+
+    </persistence-unit>
+</persistence>

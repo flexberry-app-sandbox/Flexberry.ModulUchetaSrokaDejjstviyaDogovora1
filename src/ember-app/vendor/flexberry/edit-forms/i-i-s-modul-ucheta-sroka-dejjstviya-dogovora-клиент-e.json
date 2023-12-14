@@ -1,0 +1,14 @@
+﻿{
+  "propertyLookup": [],
+  "external": false,
+  "caption": "Клиент",
+  "name": "IIS_Modul_ucheta_sroka_dejjstviya_dogovoraКлиентE",
+  "className": "КлиентE",
+  "attrs": [],
+  "projections": [
+    {
+      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент",
+      "modelProjection": "КлиентE"
+    }
+  ]
+}
