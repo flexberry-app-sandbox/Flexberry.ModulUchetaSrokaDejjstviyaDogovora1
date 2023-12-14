@@ -15,9 +15,9 @@ export default ListFormRoute.extend({
 
     @property modelName
     @type String
-    @default 'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл'
+    @default 'директор'
   */
-  modelName: 'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл',
+  modelName: 'директор',
 
   /**
     Defined user settings developer.

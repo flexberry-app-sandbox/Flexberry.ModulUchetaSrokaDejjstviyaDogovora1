@@ -4,17 +4,10 @@
   "items": [
     {
       "link": null,
-      "menuName": "modul-ucheta-sroka-dejjstviya-dogovora",
-      "caption": "_Modul_ucheta_sroka_dejjstviya_dogovora",
-      "title": "_Modul_ucheta_sroka_dejjstviya_dogovora",
+      "menuName": "справочники",
+      "caption": "Справочники",
+      "title": "Справочники",
       "children": [
-        {
-          "link": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-l",
-          "menuName": null,
-          "caption": "Услуги",
-          "title": "",
-          "children": null
-        },
         {
           "link": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент-l",
           "menuName": null,
@@ -28,7 +21,15 @@
           "caption": "Дир отд по раб с кл",
           "title": "",
           "children": null
-        },
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "договоры",
+      "caption": "Договоры",
+      "title": "Договоры",
+      "children": [
         {
           "link": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем-l",
           "menuName": null,
@@ -40,6 +41,21 @@
           "link": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор-l",
           "menuName": null,
           "caption": "Договор",
+          "title": "",
+          "children": null
+        }
+      ]
+    },
+    {
+      "link": null,
+      "menuName": "прочее",
+      "caption": "Прочее",
+      "title": "Прочее",
+      "children": [
+        {
+          "link": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-l",
+          "menuName": null,
+          "caption": "Услуги",
           "title": "",
           "children": null
         }

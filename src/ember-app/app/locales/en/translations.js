@@ -17,6 +17,7 @@ import IIS_Modul_ucheta_sroka_dejjstviya_dogovoraКлиентModel from './model
 import IIS_Modul_ucheta_sroka_dejjstviya_dogovoraОказУслугModel from './models/i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-оказ-услуг';
 import IIS_Modul_ucheta_sroka_dejjstviya_dogovoraРасчетОстВремModel from './models/i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем';
 import IIS_Modul_ucheta_sroka_dejjstviya_dogovoraУслугиModel from './models/i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги';
+import ДиректорModel from './models/директор';
 
 const translations = {};
 $.extend(true, translations, EmberFlexberryTranslations);
@@ -28,7 +29,8 @@ $.extend(true, translations, {
     'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент': IIS_Modul_ucheta_sroka_dejjstviya_dogovoraКлиентModel,
     'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-оказ-услуг': IIS_Modul_ucheta_sroka_dejjstviya_dogovoraОказУслугModel,
     'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем': IIS_Modul_ucheta_sroka_dejjstviya_dogovoraРасчетОстВремModel,
-    'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги': IIS_Modul_ucheta_sroka_dejjstviya_dogovoraУслугиModel
+    'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги': IIS_Modul_ucheta_sroka_dejjstviya_dogovoraУслугиModel,
+    'директор': ДиректорModel
   },
 
   'application-name': '_ modul_ucheta_sroka_dejjstviya_dogovora',
@@ -93,6 +95,38 @@ $.extend(true, translations, {
         index: {
           caption: 'Home',
           title: ''
+        },
+        справочники: {
+          caption: 'Справочники',
+          title: 'Справочники',
+          'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент-l': {
+            caption: 'Клиент',
+            title: ''
+          },
+          'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл-l': {
+            caption: 'Дир отд по раб с кл',
+            title: ''
+          }
+        },
+        договоры: {
+          caption: 'Договоры',
+          title: 'Договоры',
+          'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем-l': {
+            caption: 'Расчет ост врем',
+            title: ''
+          },
+          'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор-l': {
+            caption: 'Договор',
+            title: ''
+          }
+        },
+        прочее: {
+          caption: 'Прочее',
+          title: 'Прочее',
+          'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-l': {
+            caption: 'Услуги',
+            title: ''
+          }
         },
         'modul-ucheta-sroka-dejjstviya-dogovora': {
           caption: '_Modul_ucheta_sroka_dejjstviya_dogovora',

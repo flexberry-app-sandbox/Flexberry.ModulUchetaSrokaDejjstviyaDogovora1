@@ -1,6 +1,6 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор', 'Unit | Model | i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор', {
+moduleForModel('директор', 'Unit | Model | директор', {
   // Specify the other units that are required for this test.
   needs: [
     'model:i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл',

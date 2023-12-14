@@ -7,7 +7,7 @@
   "attrs": [],
   "projections": [
     {
-      "modelName": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл",
+      "modelName": "директор",
       "modelProjection": "ДирОтдПоРабСКлE"
     }
   ]

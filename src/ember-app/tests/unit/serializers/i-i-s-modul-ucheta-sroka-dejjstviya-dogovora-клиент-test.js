@@ -20,6 +20,7 @@ moduleForModel('i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент', 'Uni
     'model:i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-оказ-услуг',
     'model:i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем',
     'model:i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги',
+    'model:директор',
     'validator:ds-error',
     'validator:presence',
     'validator:number',

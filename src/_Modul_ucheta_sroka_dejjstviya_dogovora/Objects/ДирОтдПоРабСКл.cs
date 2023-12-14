@@ -26,6 +26,7 @@ namespace IIS._Modul_ucheta_sroka_dejjstviya_dogovora
     // *** Start programmer edit section *** (ДирОтдПоРабСКл CustomAttributes)
 
     // *** End programmer edit section *** (ДирОтдПоРабСКл CustomAttributes)
+    [PublishName("Директор")]
     [AutoAltered()]
     [Caption("Директор")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]

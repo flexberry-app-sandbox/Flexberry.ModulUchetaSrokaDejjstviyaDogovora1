@@ -75,7 +75,7 @@
       "polymorphic": false,
       "presence": true,
       "name": "дирОтдПоРабСКл",
-      "relatedTo": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл",
+      "relatedTo": "директор",
       "inverse": null
     },
     {
@@ -139,7 +139,7 @@
         {
           "lookupValue": "Фамилия",
           "lookupValueField": "фамилия",
-          "relationName": "ДирОтдПоРабСКл",
+          "relationName": "Директор",
           "belongsTo": [],
           "hidden": false,
           "attrs": [
@@ -160,7 +160,7 @@
           "type": "standard",
           "caption": "Фамилия директора",
           "name": "дирОтдПоРабСКл",
-          "relatedTo": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл",
+          "relatedTo": "директор",
           "inverse": null
         },
         {
@@ -244,7 +244,7 @@
         {
           "lookupValue": null,
           "lookupValueField": null,
-          "relationName": "ДирОтдПоРабСКл",
+          "relationName": "Директор",
           "belongsTo": [],
           "hidden": false,
           "attrs": [
@@ -259,7 +259,7 @@
           "type": "default",
           "caption": "Фамилия директора",
           "name": "дирОтдПоРабСКл",
-          "relatedTo": "i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл",
+          "relatedTo": "директор",
           "inverse": null
         },
         {

@@ -1,9 +1,9 @@
 import { moduleForModel, test } from 'ember-qunit';
 
-moduleForModel('i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги', 'Unit | Serializer | i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги', {
+moduleForModel('директор', 'Unit | Serializer | директор', {
   // Specify the other units that are required for this test.
   needs: [
-    'serializer:i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги',
+    'serializer:директор',
     'service:syncer',
     'transform:file',
     'transform:decimal',

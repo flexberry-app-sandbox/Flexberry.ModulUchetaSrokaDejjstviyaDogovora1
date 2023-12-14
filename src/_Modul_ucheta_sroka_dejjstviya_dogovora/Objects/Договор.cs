@@ -372,7 +372,6 @@ namespace IIS._Modul_ucheta_sroka_dejjstviya_dogovora
         public virtual void Отправить()
         {
             // *** Start programmer edit section *** (Договор.Отправить method implementation)
-
             return;
             // *** End programmer edit section *** (Договор.Отправить method implementation)
         }

@@ -12,7 +12,7 @@ export let Model = Mixin.create({
   статус: DS.attr('i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-статус'),
   стоимость: DS.attr('number'),
   тип: DS.attr('i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-тип-договора'),
-  дирОтдПоРабСКл: DS.belongsTo('i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл', { inverse: null, async: false }),
+  дирОтдПоРабСКл: DS.belongsTo('директор', { inverse: null, async: false }),
   клиент: DS.belongsTo('i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент', { inverse: null, async: false })
 });
 
@@ -88,7 +88,7 @@ export let defineProjections = function (modelClass) {
     стоимость: attr('Стоимость', { index: 4 }),
     длительность: attr('Длительность', { index: 5 }),
     едВремени: attr('Единица времени', { index: 6 }),
-    дирОтдПоРабСКл: belongsTo('i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл', 'Фамилия директора', {
+    дирОтдПоРабСКл: belongsTo('директор', 'Фамилия директора', {
       имя: attr('Имя директора', { index: 8 }),
       отчество: attr('Отчество директора', { index: 9 })
     }, { index: 7, displayMemberPath: 'фамилия' }),
@@ -106,7 +106,7 @@ export let defineProjections = function (modelClass) {
     стоимость: attr('Стоимость', { index: 4 }),
     длительность: attr('Длительность', { index: 5 }),
     едВремени: attr('Единица времени', { index: 6 }),
-    дирОтдПоРабСКл: belongsTo('i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл', 'Фамилия директора', {
+    дирОтдПоРабСКл: belongsTo('директор', 'Фамилия директора', {
       фамилия: attr('Фамилия директора', { index: 7 })
     }, { index: -1, hidden: true }),
     клиент: belongsTo('i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент', 'Фамилия клиента', {

@@ -22,37 +22,49 @@ export default Controller.extend({
         }, {
           link: null,
           icon: 'list',
-          caption: i18n.t('forms.application.sitemap.modul-ucheta-sroka-dejjstviya-dogovora.caption'),
-          title: i18n.t('forms.application.sitemap.modul-ucheta-sroka-dejjstviya-dogovora.title'),
+          caption: i18n.t('forms.application.sitemap.справочники.caption'),
+          title: i18n.t('forms.application.sitemap.справочники.title'),
           children: [{
-            link: 'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-l',
-            caption: i18n.t('forms.application.sitemap.modul-ucheta-sroka-dejjstviya-dogovora.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-l.caption'),
-            title: i18n.t('forms.application.sitemap.modul-ucheta-sroka-dejjstviya-dogovora.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-l.title'),
-            icon: 'building',
-            children: null
-          }, {
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент-l',
-            caption: i18n.t('forms.application.sitemap.modul-ucheta-sroka-dejjstviya-dogovora.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент-l.caption'),
-            title: i18n.t('forms.application.sitemap.modul-ucheta-sroka-dejjstviya-dogovora.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент-l.title'),
-            icon: 'address card',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент-l.title'),
+            icon: 'book',
             children: null
           }, {
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл-l',
-            caption: i18n.t('forms.application.sitemap.modul-ucheta-sroka-dejjstviya-dogovora.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл-l.caption'),
-            title: i18n.t('forms.application.sitemap.modul-ucheta-sroka-dejjstviya-dogovora.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл-l.title'),
-            icon: 'folder open',
+            caption: i18n.t('forms.application.sitemap.справочники.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл-l.caption'),
+            title: i18n.t('forms.application.sitemap.справочники.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл-l.title'),
+            icon: 'address card',
             children: null
-          }, {
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.договоры.caption'),
+          title: i18n.t('forms.application.sitemap.договоры.title'),
+          children: [{
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем-l',
-            caption: i18n.t('forms.application.sitemap.modul-ucheta-sroka-dejjstviya-dogovora.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем-l.caption'),
-            title: i18n.t('forms.application.sitemap.modul-ucheta-sroka-dejjstviya-dogovora.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем-l.title'),
-            icon: 'phone',
+            caption: i18n.t('forms.application.sitemap.договоры.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем-l.caption'),
+            title: i18n.t('forms.application.sitemap.договоры.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем-l.title'),
+            icon: 'building',
             children: null
           }, {
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор-l',
-            caption: i18n.t('forms.application.sitemap.modul-ucheta-sroka-dejjstviya-dogovora.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор-l.caption'),
-            title: i18n.t('forms.application.sitemap.modul-ucheta-sroka-dejjstviya-dogovora.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор-l.title'),
-            icon: 'suitcase',
+            caption: i18n.t('forms.application.sitemap.договоры.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор-l.caption'),
+            title: i18n.t('forms.application.sitemap.договоры.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор-l.title'),
+            icon: 'chart line',
+            children: null
+          }]
+        }, {
+          link: null,
+          icon: 'list',
+          caption: i18n.t('forms.application.sitemap.прочее.caption'),
+          title: i18n.t('forms.application.sitemap.прочее.title'),
+          children: [{
+            link: 'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-l',
+            caption: i18n.t('forms.application.sitemap.прочее.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-l.caption'),
+            title: i18n.t('forms.application.sitemap.прочее.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-l.title'),
+            icon: 'list',
             children: null
           }]
         }
