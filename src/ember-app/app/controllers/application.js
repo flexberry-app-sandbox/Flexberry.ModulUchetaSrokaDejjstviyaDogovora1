@@ -28,13 +28,13 @@ export default Controller.extend({
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-клиент-l.title'),
-            icon: 'building',
+            icon: 'phone',
             children: null
           }, {
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл-l',
             caption: i18n.t('forms.application.sitemap.справочники.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл-l.caption'),
             title: i18n.t('forms.application.sitemap.справочники.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-дир-отд-по-раб-с-кл-l.title'),
-            icon: 'paperclip',
+            icon: 'archive',
             children: null
           }]
         }, {
@@ -46,13 +46,13 @@ export default Controller.extend({
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем-l',
             caption: i18n.t('forms.application.sitemap.договоры.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем-l.caption'),
             title: i18n.t('forms.application.sitemap.договоры.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-расчет-ост-врем-l.title'),
-            icon: 'folder',
+            icon: 'folder open',
             children: null
           }, {
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор-l',
             caption: i18n.t('forms.application.sitemap.договоры.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор-l.caption'),
             title: i18n.t('forms.application.sitemap.договоры.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-договор-l.title'),
-            icon: 'suitcase',
+            icon: 'building',
             children: null
           }]
         }, {
@@ -64,7 +64,7 @@ export default Controller.extend({
             link: 'i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-l',
             caption: i18n.t('forms.application.sitemap.прочее.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-l.caption'),
             title: i18n.t('forms.application.sitemap.прочее.i-i-s-modul-ucheta-sroka-dejjstviya-dogovora-услуги-l.title'),
-            icon: 'suitcase',
+            icon: 'table',
             children: null
           }]
         }
