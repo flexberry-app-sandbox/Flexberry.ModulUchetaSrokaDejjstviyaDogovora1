@@ -9,7 +9,7 @@
   "projections": [
     {
       "modelName": "директор",
-      "modelProjection": "ДирОтдПоРабСКлL"
+      "modelProjection": "ДиректорL"
     }
   ]
 }

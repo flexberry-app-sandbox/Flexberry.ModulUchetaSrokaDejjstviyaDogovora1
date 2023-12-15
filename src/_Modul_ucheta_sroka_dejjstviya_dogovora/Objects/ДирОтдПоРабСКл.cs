@@ -30,7 +30,7 @@ namespace IIS._Modul_ucheta_sroka_dejjstviya_dogovora
     [AutoAltered()]
     [Caption("Директор")]
     [AccessType(ICSSoft.STORMNET.AccessType.none)]
-    [View("ДирОтдПоРабСКлE", new string[] {
+    [View("ДиеректорE", new string[] {
             "idДиректора as \'Id директора\'",
             "Фамилия as \'Фамилия\'",
             "Имя as \'Имя\'",
@@ -38,7 +38,7 @@ namespace IIS._Modul_ucheta_sroka_dejjstviya_dogovora
             "НомерТелефона as \'Номер телефона\'",
             "НомерПаспорта as \'Номер паспорта\'",
             "СерияПаспорта as \'Серия паспорта\'"})]
-    [View("ДирОтдПоРабСКлL", new string[] {
+    [View("ДиректорL", new string[] {
             "idДиректора as \'Id директора\'",
             "Фамилия as \'Фамилия\'",
             "Имя as \'Имя\'",
@@ -296,24 +296,24 @@ namespace IIS._Modul_ucheta_sroka_dejjstviya_dogovora
         {
             
             /// <summary>
-            /// "ДирОтдПоРабСКлE" view.
+            /// "ДиеректорE" view.
             /// </summary>
-            public static ICSSoft.STORMNET.View ДирОтдПоРабСКлE
+            public static ICSSoft.STORMNET.View ДиеректорE
             {
                 get
                 {
-                    return ICSSoft.STORMNET.Information.GetView("ДирОтдПоРабСКлE", typeof(IIS._Modul_ucheta_sroka_dejjstviya_dogovora.ДирОтдПоРабСКл));
+                    return ICSSoft.STORMNET.Information.GetView("ДиеректорE", typeof(IIS._Modul_ucheta_sroka_dejjstviya_dogovora.ДирОтдПоРабСКл));
                 }
             }
             
             /// <summary>
-            /// "ДирОтдПоРабСКлL" view.
+            /// "ДиректорL" view.
             /// </summary>
-            public static ICSSoft.STORMNET.View ДирОтдПоРабСКлL
+            public static ICSSoft.STORMNET.View ДиректорL
             {
                 get
                 {
-                    return ICSSoft.STORMNET.Information.GetView("ДирОтдПоРабСКлL", typeof(IIS._Modul_ucheta_sroka_dejjstviya_dogovora.ДирОтдПоРабСКл));
+                    return ICSSoft.STORMNET.Information.GetView("ДиректорL", typeof(IIS._Modul_ucheta_sroka_dejjstviya_dogovora.ДирОтдПоРабСКл));
                 }
             }
         }

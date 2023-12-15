@@ -8,7 +8,7 @@
   "projections": [
     {
       "modelName": "директор",
-      "modelProjection": "ДирОтдПоРабСКлE"
+      "modelProjection": "ДиеректорE"
     }
   ]
 }

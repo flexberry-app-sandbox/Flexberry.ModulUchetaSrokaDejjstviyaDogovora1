@@ -63,7 +63,7 @@ export let ValidationRules = {
 };
 
 export let defineProjections = function (modelClass) {
-  modelClass.defineProjection('ДирОтдПоРабСКлE', 'директор', {
+  modelClass.defineProjection('ДиеректорE', 'директор', {
     idДиректора: attr('Id директора', { index: 0 }),
     фамилия: attr('Фамилия', { index: 1 }),
     имя: attr('Имя', { index: 2 }),
@@ -73,7 +73,7 @@ export let defineProjections = function (modelClass) {
     серияПаспорта: attr('Серия паспорта', { index: 6 })
   });
 
-  modelClass.defineProjection('ДирОтдПоРабСКлL', 'директор', {
+  modelClass.defineProjection('ДиректорL', 'директор', {
     idДиректора: attr('Id директора', { index: 0 }),
     фамилия: attr('Фамилия', { index: 1 }),
     имя: attr('Имя', { index: 2 }),
